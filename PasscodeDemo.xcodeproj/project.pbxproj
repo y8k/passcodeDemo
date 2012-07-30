@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE6DA04015C6867600C9ADE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DA03F15C6867600C9ADE5 /* UIKit.framework */; };
+		AE6DA04215C6867600C9ADE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DA04115C6867600C9ADE5 /* Foundation.framework */; };
+		AE6DA04415C6867600C9ADE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DA04315C6867600C9ADE5 /* CoreGraphics.framework */; };
+		AE6DA04A15C6867600C9ADE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE6DA04815C6867600C9ADE5 /* InfoPlist.strings */; };
+		AE6DA04C15C6867600C9ADE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6DA04B15C6867600C9ADE5 /* main.m */; };
+		AE6DA05015C6867600C9ADE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6DA04F15C6867600C9ADE5 /* AppDelegate.m */; };
+		AE6DA05815C6868200C9ADE5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6DA05715C6868200C9ADE5 /* MainViewController.m */; };
+		AE6DA05B15C686CB00C9ADE5 /* PasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6DA05A15C686CB00C9ADE5 /* PasscodeViewController.m */; };
+		AE6DA05E15C688DE00C9ADE5 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6DA05D15C688DE00C9ADE5 /* ModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE6DA03B15C6867600C9ADE5 /* PasscodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasscodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6DA03F15C6867600C9ADE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE6DA04115C6867600C9ADE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE6DA04315C6867600C9ADE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE6DA04715C6867600C9ADE5 /* PasscodeDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasscodeDemo-Info.plist"; sourceTree = "<group>"; };
+		AE6DA04915C6867600C9ADE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE6DA04B15C6867600C9ADE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE6DA04D15C6867600C9ADE5 /* PasscodeDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasscodeDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AE6DA04E15C6867600C9ADE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE6DA04F15C6867600C9ADE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE6DA05615C6868200C9ADE5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AE6DA05715C6868200C9ADE5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AE6DA05915C686CB00C9ADE5 /* PasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeViewController.h; sourceTree = "<group>"; };
+		AE6DA05A15C686CB00C9ADE5 /* PasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeViewController.m; sourceTree = "<group>"; };
+		AE6DA05C15C688DE00C9ADE5 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		AE6DA05D15C688DE00C9ADE5 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6DA03815C6867600C9ADE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6DA04015C6867600C9ADE5 /* UIKit.framework in Frameworks */,
+				AE6DA04215C6867600C9ADE5 /* Foundation.framework in Frameworks */,
+				AE6DA04415C6867600C9ADE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE6DA03015C6867600C9ADE5 = {
+			isa = PBXGroup;
+			children = (
+				AE6DA04515C6867600C9ADE5 /* PasscodeDemo */,
+				AE6DA03E15C6867600C9ADE5 /* Frameworks */,
+				AE6DA03C15C6867600C9ADE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE6DA03C15C6867600C9ADE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DA03B15C6867600C9ADE5 /* PasscodeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE6DA03E15C6867600C9ADE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DA03F15C6867600C9ADE5 /* UIKit.framework */,
+				AE6DA04115C6867600C9ADE5 /* Foundation.framework */,
+				AE6DA04315C6867600C9ADE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE6DA04515C6867600C9ADE5 /* PasscodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DA05915C686CB00C9ADE5 /* PasscodeViewController.h */,
+				AE6DA05A15C686CB00C9ADE5 /* PasscodeViewController.m */,
+				AE6DA04E15C6867600C9ADE5 /* AppDelegate.h */,
+				AE6DA04F15C6867600C9ADE5 /* AppDelegate.m */,
+				AE6DA04615C6867600C9ADE5 /* Supporting Files */,
+				AE6DA05615C6868200C9ADE5 /* MainViewController.h */,
+				AE6DA05715C6868200C9ADE5 /* MainViewController.m */,
+				AE6DA05C15C688DE00C9ADE5 /* ModalViewController.h */,
+				AE6DA05D15C688DE00C9ADE5 /* ModalViewController.m */,
+			);
+			path = PasscodeDemo;
+			sourceTree = "<group>";
+		};
+		AE6DA04615C6867600C9ADE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DA04715C6867600C9ADE5 /* PasscodeDemo-Info.plist */,
+				AE6DA04815C6867600C9ADE5 /* InfoPlist.strings */,
+				AE6DA04B15C6867600C9ADE5 /* main.m */,
+				AE6DA04D15C6867600C9ADE5 /* PasscodeDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE6DA03A15C6867600C9ADE5 /* PasscodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6DA05315C6867600C9ADE5 /* Build configuration list for PBXNativeTarget "PasscodeDemo" */;
+			buildPhases = (
+				AE6DA03715C6867600C9ADE5 /* Sources */,
+				AE6DA03815C6867600C9ADE5 /* Frameworks */,
+				AE6DA03915C6867600C9ADE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasscodeDemo;
+			productName = PasscodeDemo;
+			productReference = AE6DA03B15C6867600C9ADE5 /* PasscodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE6DA03215C6867600C9ADE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "YoonBong Kim";
+			};
+			buildConfigurationList = AE6DA03515C6867600C9ADE5 /* Build configuration list for PBXProject "PasscodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE6DA03015C6867600C9ADE5;
+			productRefGroup = AE6DA03C15C6867600C9ADE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE6DA03A15C6867600C9ADE5 /* PasscodeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE6DA03915C6867600C9ADE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6DA04A15C6867600C9ADE5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6DA03715C6867600C9ADE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6DA04C15C6867600C9ADE5 /* main.m in Sources */,
+				AE6DA05015C6867600C9ADE5 /* AppDelegate.m in Sources */,
+				AE6DA05815C6868200C9ADE5 /* MainViewController.m in Sources */,
+				AE6DA05B15C686CB00C9ADE5 /* PasscodeViewController.m in Sources */,
+				AE6DA05E15C688DE00C9ADE5 /* ModalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE6DA04815C6867600C9ADE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6DA04915C6867600C9ADE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE6DA05115C6867600C9ADE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE6DA05215C6867600C9ADE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE6DA05415C6867600C9ADE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasscodeDemo/PasscodeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PasscodeDemo/PasscodeDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE6DA05515C6867600C9ADE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasscodeDemo/PasscodeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PasscodeDemo/PasscodeDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE6DA03515C6867600C9ADE5 /* Build configuration list for PBXProject "PasscodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6DA05115C6867600C9ADE5 /* Debug */,
+				AE6DA05215C6867600C9ADE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6DA05315C6867600C9ADE5 /* Build configuration list for PBXNativeTarget "PasscodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6DA05415C6867600C9ADE5 /* Debug */,
+				AE6DA05515C6867600C9ADE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE6DA03215C6867600C9ADE5 /* Project object */;
+}
